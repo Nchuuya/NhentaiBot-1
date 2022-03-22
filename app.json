@@ -1,0 +1,39 @@
+{
+
+  "name": "Heroku-Manga-DL-Bot",
+
+  "description": "Get manga Dl",
+
+  "keywords": ["manga","python"],
+
+  "repository": "https://github.com/Nchuuya/api",
+
+  "env": {
+
+    "BOT_TOKEN": {
+
+      "description": "Your bot token, as a string.",
+
+      "value": "5246525098:AAHdJfZiC7Rhax0uELU_5IHDX_mlvOB2SXQ"
+
+    },
+
+    "API_ID": {
+
+      "description": "Get this value from https://my.telegram.org",
+
+      "value": "8276637"
+
+    },
+
+    "API_HASH": {
+
+      "description": "Get this value from https://my.telegram.org",
+
+      "value": "c412d38a4ebcc2b32621a5c2be276d13"
+
+    }
+
+  }
+
+}
