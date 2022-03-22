@@ -66,9 +66,9 @@ def status(update, context):
 def main():
 
     # -------- COMMANDS ----------
-    dp.add_handler(CommandHandler("start", start, run_async=True))
-    dp.add_handler(CommandHandler("status", status, run_async=True))
-    dp.add_handler(CommandHandler("help", help, run_async=True))
+    dp.add_handler(CommandHandler("nhstart", nhstart, run_async=True))
+    dp.add_handler(CommandHandler("nstatus", nstatus, run_async=True))
+    dp.add_handler(CommandHandler("nhhelp", nhhelp, run_async=True))
     dp.add_handler(CommandHandler("code", single_manga, run_async=True))
     dp.add_handler(InlineQueryHandler(search_query))
     dp.add_handler(ConversationHandler(entry_points=[CommandHandler('search', s_conv, run_async=True)],
